@@ -1,5 +1,5 @@
 |   Type   |   Product ID   |   Product Name   |   Available Items   |   Price   |   Brand if Electronics / Size if Clothing   |   Warranty if Electronics / Color if Clothing   |
-Clothing          c1            shirt                   3               123.00                      medium                                           red                 
-Electronics       e1            phone1                  3               1234.00                     0    pixel                                       4 y                 
-Electronics       e2            power bank              7               200.00                      xiomi                                            2 years             
-Electronics       e3            phone                   3               600.00                      pixel 7                                          1 year              
+Clothing          C101          Crocodile Polo Shirt    15              8000.00                     Medium                                           Black               
+Clothing          C102          Levis Denim             4               15000.00                    Medium                                           Dark Blue           
+Electronics       E101          Power Bank              5               80000.00                    Samsung                                          2 Years             
+Electronics       E102          Google Pixel 9 pro      5               300000.00                   Google Pixel                                     2 Years             
