@@ -1,0 +1,5 @@
+|   Type   |   Product ID   |   Product Name   |   Available Items   |   Price   |   Brand if Electronics / Size if Clothing   |   Warranty if Electronics / Color if Clothing   |
+Clothing          c1            shirt                   3               123.00                      medium                                           red                 
+Electronics       e1            phone1                  3               1234.00                     0    pixel                                       4 y                 
+Electronics       e2            power bank              7               200.00                      xiomi                                            2 years             
+Electronics       e3            phone                   3               600.00                      pixel 7                                          1 year              

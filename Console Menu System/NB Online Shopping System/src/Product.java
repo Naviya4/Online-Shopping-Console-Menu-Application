@@ -1,31 +1,31 @@
 abstract class Product {
 
-    private char product_ID;
-    private String product_Name;
+    private String productID;
+    private String productName;
     private int numAvailableItems;
-    private float price;
+    private double price;
 
-    public Product(char product_ID, String product_Name, int numAvailableItems, float price) {
-        this.product_ID = product_ID;
-        this.product_Name = product_Name;
+    public Product(String productID, String productName, int numAvailableItems, double price) {
+        this.productID = productID;
+        this.productName = productName;
         this.numAvailableItems = numAvailableItems;
         this.price = price;
     }
 
-    public char getProduct_ID() {
-        return product_ID;
+    public String getProductID() {
+        return productID;
     }
 
-    public void setProduct_ID(char product_ID) {
-        this.product_ID = product_ID;
+    public void setProductID(String productID) {
+        this.productID = productID;
     }
 
-    public String getProduct_Name() {
-        return product_Name;
+    public String getProductName() {
+        return productName;
     }
 
-    public void setProduct_Name(String product_Name) {
-        this.product_Name = product_Name;
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
 
     public int getNumAvailableItems() {
@@ -36,11 +36,15 @@ abstract class Product {
         this.numAvailableItems = numAvailableItems;
     }
 
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(double price) {
         this.price = price;
     }
+
+    public abstract String getProductType();
+    public abstract String getProductDetails();
+    public abstract String toFileFormat();
 }
